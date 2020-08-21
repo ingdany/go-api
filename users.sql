@@ -1,0 +1,13 @@
+CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username varchar(64),
+    first_name varchar(64),
+    last_name varchar(64)
+);
+
+INSERT INTO users (username, first_name, last_name) VALUES ('ing.dany','Daniel','Perez');
+
+create database test;
+use test1;
+show tables;
+show databases;
